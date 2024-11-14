@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Signup form</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <h1>Sign up</h1>
+        <form>
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="Password" placeholder="Password">
+            <input type="password" placeholder="Confirm Password" class="confirm_pass" id="confirm_pass">                    
+        </form>
+        <button id="sign_up">Sign up</button>
+        <button id="googleBtn" class="login-with-google-btn" >
+            Sign in with Google
+          </button>
+        <div class="member">
+            Already a member? <a href="./login.html">Login Here</a>
+        </div>
+    </div>
+
+    
+    <script type="module" src="./firebase.js"></script>
+    <script type="module" src="./app.js"></script>
+</body>
+</html>
