@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    
+    <section>
+        <div class="container">
+            <div class="card-profile">
+                <img class="img" src="./images/avatar.avif" alt="">
+              <div class="btn-field">
+                <button  class="btn" id="verifiedBtn">verify Email</button>      
+              <button class="btn" id="signOutButton">Logout</button>        
+              </div>
+            </div>
+        </div>
+    
+    
+    </section>
+    <div id="global-loader" class="loader hidden">
+        <div class="spinner"></div>
+    </div>
+
+    <script type="module" src="./firebase.js"></script>
+    <script type="module" src="./app.js"></script>
+</body>
+</html>
